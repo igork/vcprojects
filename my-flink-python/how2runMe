@@ -1,0 +1,7 @@
+//delete output before next run
+rm /tmp/output
+
+/usr/local/opt/python/bin/python3.7 /Users/ikourski001/VSProjects/my-flink-python/wordcount.py
+
+//check output
+cat /tmp/output
